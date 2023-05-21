@@ -31,13 +31,9 @@ python3 -m venv venv
 ```bash
 source venv/bin/activate
 ```
-```bash
-./setup.sh -n
-```
+
 ### Hay que instalar alguna dependencia
-```bash
-source venv/bin/activate
-```
+
 ```bash
 apt update
 ```
@@ -47,6 +43,11 @@ apt-get install python3.10-tk
 ```bash
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
+### Ejecutamos el script de instalación
+```bash
+./setup.sh -n --share
+```
+
 ### Finalmente ejecutamos la aplicación
 ```bash
 bash gui.sh --share
