@@ -79,5 +79,5 @@ bash gui.sh --share
 |Advance configuration                                   |
 | Use xformers                 |       desmarcado        |
 | Skip clip               |       2        |
-| Max num workers for DataLoader | 1 |
+
 
