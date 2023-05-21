@@ -68,7 +68,7 @@ bash gui.sh --share
 | LR scheduler                   |       constant        |
 | LR warmup (% of steps)         |         10            |
 | Cache laten                    |       marcado         |
-| text encoder learning rate     |      0.00001          |
+| text encoder learning rate     |      0,00005          |
 | unet learning rate             |        0.0001          |
 | network rank                   |          128          |
 | max resolution                 |       512,512         |
