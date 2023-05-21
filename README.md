@@ -45,7 +45,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 ```
 ### Ejecutamos el script de instalación
 ```bash
-./setup.sh -n --share
+./setup.sh -n
 ```
 
 ### Finalmente ejecutamos la aplicación
