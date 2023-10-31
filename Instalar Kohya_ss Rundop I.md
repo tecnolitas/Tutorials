@@ -1,5 +1,9 @@
 # Instalar Kohya LoRA GUI en RunPod
-Repositios Khoya interesante
+# Este scritp contiene los enlaces y comandos correspondientes a este tutorial
+
+https://www.youtube.com/watch?v=rQYJCV2VmNM
+
+# Repositios Khoya interesante
 
 Kohya SS Gui Repo : https://github.com/bmaltais/kohya_ss
 
