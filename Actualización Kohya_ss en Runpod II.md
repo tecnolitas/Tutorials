@@ -22,7 +22,8 @@ wget https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetenso
 
 ## Cómo instalar Kohya GUI en RunPod
 
-* Selecciona stable-diffusion:web-ui
+* Selecciona stable-diffusion:web-ui   --> runpod/stable-diffusion:web-ui-10.2.1
+
 * Haz que el tamaño del disco contenedor sea de al menos 15 GB
   
 El proceso completo de instalación puede llevar facilmente 15-20 minutos
