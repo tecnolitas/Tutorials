@@ -3,7 +3,7 @@
 * Descargue el archivo txt adjunto y elimina la extensión txt
 + * [Prueba1.json.txt] https://github.com/tecnolitas/Tutorials/blob/main/prueba.json.txt
  
-    ** Scritp para descargar modelos y VAE en el nodo de Runpod
+##Scritp para descargar modelos y VAE en el nodo de Runpod
 
 Realistic Vision V5.1 
 ```
