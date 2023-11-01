@@ -1,4 +1,4 @@
-# Tutorial para instalar Kohya LoRA- Web UI en RunPod- Ultima version
+# Tutorial para instalar Kohya LoRA en RunPod-Ultima version
 * El tutorial utiliza el Archivo de configuración .json utilizado
 * Descargue el archivo txt adjunto y elimina la extensión txt
 + * [Prueba1.json.txt] https://github.com/tecnolitas/Tutorials/blob/main/prueba.json.txt
@@ -18,4 +18,76 @@ wget https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-
 SDXL Best VAE
 ```
 wget https://huggingface.co/stabilityai/sdxl-vae/resolve/main/sdxl_vae.safetensors
+```
+
+## Cómo instalar Kohya GUI en RunPod
+
+* Selecciona stable-diffusion:web-ui
+* Haz que el tamaño del disco contenedor sea de al menos 15 GB
+  
+El proceso completo de instalación puede llevar facilmente 15-20 minutos
+
+```
+apt update
+```
+
+```
+apt-get install python3.10-tk
+```
+
+```
+cd /workspace
+```
+
+```
+git clone https://github.com/bmaltais/kohya_ss.git
+```
+
+```
+cd kohya_ss
+```
+
+```
+python3 -m venv venv
+```
+
+```
+source venv/bin/activate
+```
+
+```
+pip install fastapi==0.99.1
+```
+
+```
+./setup.sh -n
+```
+
+## Como ejecutarlo despues de la instalación
+
+* Iniciar un nuevo terminal
+* Copie y pegue el código siguiente
+* Es posible que tenga que pulsar Intro dos veces después de copiar y pegar.
+
+```
+apt update
+yes | apt-get install python3.10-tk
+fuser -k 7860/tcp
+cd /workspace/kohya_ss
+source venv/bin/activate
+pip install fastapi==0.99.1
+bash gui.sh --share --headless
+```
+
+## Cómo Matar la Instancia de la Interfaz Web de Automatic1111 Antes del Entrenamiento e Iniciar la Interfaz Web Manualmente
+
+Para eliminar la instancia Automatic1111 Web UI
+```
+fuser -k 3000/tcp
+```
+
+Para iniciar de nuevo la instancia Automatic1111 Web UI
+```
+cd /workspace/stable-diffusion-webui
+python relauncher.py
 ```
