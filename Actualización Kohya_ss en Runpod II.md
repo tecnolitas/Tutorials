@@ -63,6 +63,29 @@ pip install fastapi==0.99.1
 ```
 ./setup.sh -n
 ```
+### Si aparece este problema cuando termina la ejecucion de los comandos
+
+Traceback (most recent call last):
+  File "/workspace/kohya_ss/setup/validate_requirements.py", line 19, in <module>
+    from library.custom_logging import setup_logging
+  File "/workspace/kohya_ss/library/custom_logging.py", line 6, in <module>
+    from rich.theme import Theme
+ModuleNotFoundError: No module named 'rich'
+
+### ejecutar este comando
+```
+pip install rich
+
+```
+### Si aparece este problema
+
+Could not automatically configure accelerate. Please manually configure accelerate with the option in the menu or with: accelerate config.          
+
+### Ejecutar este comando
+```
+accelerate config
+```
+
 
 ## Como ejecutarlo despues de la instalación
 
