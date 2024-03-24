@@ -1,13 +1,15 @@
 # Tutorial para instalar Kohya LoRA en RunPod-Ultima version
 * El tutorial utiliza el Archivo de configuración .json utilizado
 
+## Scritp para descargar modelos y VAE en el nodo de Runpod
+
 # Si vas a entrenar modelos con Stable Diffusion 1.5
 * Descargue el archivo txt adjunto y elimina la extensión txt
 + * [Prueba1.json.txt] https://github.com/tecnolitas/Tutorials/blob/main/prueba.json.txt
 
 # Si vas a entrenar modelos con Stable Diffusion XL
  
-## Scritp para descargar modelos y VAE en el nodo de Runpod para SD 1.5
+
 
 Realistic Vision V5.1 
 ```
